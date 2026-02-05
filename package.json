@@ -1,0 +1,32 @@
+{
+  "name": "promptql-posthog",
+  "version": "0.1.0",
+  "description": "Hasura NDC connector for PostHog analytics - Execute HogQL queries via GraphQL",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasura/promptql-posthog"
+  },
+  "keywords": [
+    "hasura",
+    "ndc",
+    "posthog",
+    "analytics",
+    "hogql",
+    "connector",
+    "promptql"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "ndc-lambda-sdk host -f functions.ts serve --configuration ./",
+    "watch": "ndc-lambda-sdk host -f functions.ts --watch serve --configuration ./ --pretty-print-logs"
+  },
+  "dependencies": {
+    "@hasura/ndc-lambda-sdk": "1.18.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.4.2"
+  }
+}
