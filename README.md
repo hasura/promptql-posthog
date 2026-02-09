@@ -1,6 +1,6 @@
 # PostHog Connector for Hasura DDN
 
-A Hasura NDC (Native Data Connector) that enables querying PostHog analytics via GraphQL. Execute HogQL queries, discover dashboards, and retrieve insight definitions.
+A Hasura NDC (Native Data Connector) that enables querying PostHog analytics. Execute HogQL queries, discover dashboards, and retrieve insight definitions.
 
 ## Features
 

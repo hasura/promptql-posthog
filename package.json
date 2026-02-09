@@ -24,7 +24,7 @@
     "watch": "ndc-lambda-sdk host -f functions.ts --watch serve --configuration ./ --pretty-print-logs"
   },
   "dependencies": {
-    "@hasura/ndc-lambda-sdk": "1.18.0"
+    "@hasura/ndc-lambda-sdk": "^1.20.2"
   },
   "devDependencies": {
     "dotenv-cli": "^7.4.2"
